@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTADA</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap">
+
+    <STYle>
+        .padre {
+            display: flex;
+            padding: 10%;
+            background-image: url("https://img.freepik.com/vector-gratis/fondo-abstracto-ornamental-floral_52683-30016.jpg");
+            background-size: cover;
+        }
+
+        .img {
+            width: 30%;
+        }
+
+        .detalle {
+
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+            width: 70%;
+            padding: 20px;
+            color: black;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            background-image: url("https://media.istockphoto.com/id/1344873588/es/vector/fondos-vectoriales-horizontales-de-efecto-texturizado-vac%C3%ADo-en-blanco-de-un-color-rojo.jpg?s=612x612&w=0&k=20&c=pjhNhaWV77IitxjsafVvO_aj2KBaf-hU_PWgLpXV-hg=");
+            background-size: cover;
+        }
+
+        .fotox {
+            width: 100%;
+            height: 85vh;
+
+        }
+
+        .bt {
+           
+            position: absolute;
+            bottom: 10px;
+            right: 680px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 17px; /* Ajusta el tamaño de la fuente */
+            font-weight: 900;
+            cursor: pointer;
+            color: black;
+            width: 20%;
+            padding: 10px;
+            border-radius: 20px;
+            border: 2px solid black;
+            background-position: center;
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/112/310/small/golden-background-vector-pattern.jpg");
+
+        }
+        .bt2{
+            position: absolute;
+            bottom: 10px;
+            right: 180px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 17px; /* Ajusta el tamaño de la fuente */
+            font-weight: 900;
+            cursor: pointer;
+            color: black;
+            width: 20%;
+            padding: 10px;
+            border-radius: 20px;
+            border: 2px solid black;
+            background-position: center;
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/112/310/small/golden-background-vector-pattern.jpg");
+
+
+        }
+    </STYle>
+</head>
+
+<body>
+    <div class="padre">
+
+        <div class="img">
+            <img class="fotox" src="img/pp.jpg" alt="">
+        </div>
+
+
+        <div class="detalle">
+            <h1>Querida Ladyy</h1>
+            <h2>Aunque hoy no podamos estar juntos físicamente , quiero que
+                sepas que cada línea de código que escribo en este proyecto de HTML está impregnada de mi cariño por ti.
+                Mi deseo de estar a tu lado es tan fuerte como la pasión que le dedico a este trabajo. Aunque la
+                distancia nos separe temporalmente, quiero que sientas mi amor y deseo ardiente atravez de esta
+                creación. ¡Te quiero mucho y te deseo con toda mi alma! te dedico estas canciones jajaj escucha ambaaaaas</h2>
+            
+            <button onclick="v()" class="bt">Escuchar Cancion 1 </button>
+            <button onclick="x()" class="bt2">Escuchar Cancion 2</button>
+
+        </div>
+
+    </div>
+
+    <script>
+        function v() {
+            window.open("https://www.youtube.com/watch?v=NaQD8lIsTpA&t=0s", "_")
+        }
+        function x(){
+            window.open("https://www.youtube.com/watch?v=Nk8C9FdCdJQ&list=RDNKVI1zbtLHY&index=9", "_")
+        }
+    </script>
+
+</body>
+
+</html>
